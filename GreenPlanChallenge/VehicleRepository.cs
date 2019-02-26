@@ -63,11 +63,11 @@ namespace GreenPlanChallenge
         }
         public List<Vehicle> GetElectricVehicles()
         {
-            return _gasVehicles;
+            return _electricVehicles;
         }
         public List<Vehicle> GetHyrbidVehicles()
         {
-            return _gasVehicles;
+            return _hybridVehicles;
         }
     }
 }
